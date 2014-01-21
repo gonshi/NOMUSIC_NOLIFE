@@ -1,0 +1,88 @@
+body {
+  font-size: 13px;
+  font-family: arial, georgia, verdana, 'times new roman';
+  text-align:justify;
+}
+
+#container{
+	width: 100%;
+}
+
+#youtube_header{
+	width:100%;
+	height: 60px;
+	text-align: center;
+}
+#youtube_header img{
+	vertical-align: middle;
+	margin-left:10px;
+}
+
+#videos{
+	position:relative;
+	width:90%;
+	margin: 0 auto;
+}
+
+.player{
+        cursor: pointer;
+}
+
+.ajax_item{
+	width: 320px;
+	height: 540px;
+	margin:10px 10px;
+
+}
+
+.ajax_item .info{
+	height:39px;
+	margin: 10px 0px;
+}
+
+#comment{
+	width: 320px;
+	text-align: center;
+}
+#comment textarea{
+	margin: 5px 2px;
+    font-size:12px;
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo;
+    border: 1px solid #B9C9CE;
+    border-radius:5px;
+    padding: 12px 0.8em;
+    width:246px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.2);
+}
+
+#comment textarea:focus {
+  border-color:#83B6C2;
+    outline:none;
+    box-shadow:2px 2px 4px rgba(143,183,222,0.6),-2px -2px 4px rgba(143,183,222,0.6),inset 0 1px 2px rgba(0,0,0,0.2);
+}
+
+#comment input{
+	margin:7px 4px;
+	display: inline-block;
+}
+::-webkit-input-placeholder {
+    color:#AFAFAF;
+}
+:-moz-placeholder {
+    color:#AFAFAF;
+}
+
+img.play_button{
+    position: absolute;
+    top: 135px;
+    left: 115px;
+}
+
+input.button {
+	vertical-align: middle;
+}
+
+input#keyword {
+	margin: 0 10px;
+	vertical-align: middle;
+}
